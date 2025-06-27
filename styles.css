@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+
+@font-face {
+    font-family: "times";
+    src: url("Fonts/times.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #777;
+} 
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-top: 1px solid rgb(0, 0, 0);
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3)
+}
+
+.nav-index ul {
+    margin: 0;
+}
+
+.nav-index li {
+    display: inline;
+}
+
+.nav-index a {
+    display: inline-block;
+    padding: .5em;
+    color: rgba(0, 0, 0, 0.534);
+    text-decoration: none;
+}
+
+.main-nav-index {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-top: 1px solid rgb(0, 0, 0);
+}
+
+.main-nav-index li {
+    padding: 0 5%;
+}
+
+.nav-index a:hover {
+    background-color: rgba(255, 255, 255, .3)
+}
+
+.student-subject {
+    color: rgba(0, 0, 0, 0.651);
+    font-family:'Times New Roman', Times, serif;
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, .50);
+    background-image: url("Images/dmmsu-bg-fixed.png");
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+
+.web-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: "times";
+    font-weight: normal;
+    color: white;
+}
+
+.web-name-large {
+    font-size: 4em;
+}
+
+.content-section {
+    margin: 1em;
+    font-weight: bolder;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+    text-align: center;
+}
+
+.section-header {
+    font-family: "times";
+    font-weight: normal;
+    color: black;
+    font-size: 2.5em;
+}
+
+.index-section-title{
+    font-style: italic;
+}
+
+.main-footer {
+    background-color: #56CCF2;
+    color: white;
+    padding: .25em 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
+
+.student-name {
+    color: rgba(0, 0, 0, .65);
+    font-display: flex;
+    font-family: "times";
+    text-align: right;
+}
+
+.student-school {
+    color: rgba(0, 0, 0, .65);
+    font-display: flex;
+    font-family: "times";
+    text-align: right;
+}
+
+.favorite-section {
+    margin: 50px;
+}
+
+.favorite-section-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #04b8ff;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.favorite-section-image {
+    height: 250px;
+}
+
+.favorite-section-image-hobbies {
+    height: 170px;
+}
+
+.favorite-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
